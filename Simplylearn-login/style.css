@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 25px;
+}
+h1,
+h2 {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+h2 {
+  color: #343a40;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button.google,
+button.linkedin,
+button.facebook,
+button.apple {
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 3%;
+}
+
+button.google {
+  background-color: #db4437;
+  margin-left: 50px;
+}
+
+button.linkedin {
+  background-color: #007bb6;
+  margin-right: 50px;
+}
+
+button.facebook {
+  background-color: #3b5998;
+  margin-left: 50px;
+}
+
+button.apple {
+  background-color: #000000;
+  margin-right: 50px;
+}
+
+a:visited {
+  color: #343a40;
+}
+.fp {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: #343a40;
+}
+.fp:hover {
+  text-decoration: underline;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.olw {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+.cb {
+  margin-right: 140px;
+  text-align: left;
+}
+.su {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 25px;
+}
